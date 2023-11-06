@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light vw-100" style="position: fixed; top: 0; z-index: 1;" id="navBar">
+        <div class="container gilroy-regular p-2 rounded-pill">
+          <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#secondSection">Чему вы научитесь</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#thirdSection">Процесс обучения</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#sixthSection">Список курсов</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#footer">Контакты</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item mx-2">
+                    <button class="border-0 py-2 px-3 rounded-pill">Регистрация</button>
+                </li>
+                <li class="nav-item mx-2" id="sign-in-btn">
+                    <button class="border-0 prim text-white py-2 px-3 rounded-pill sign-in">Войти</button>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Scroll up button -->
+      <button class="no-border" style="background: none; position: fixed; right: 10%; bottom: 5%;" id="scrollBtn"><img src="img/arrow-up-circle-fill.svg" alt=""></button>
+      <!-- First Section -->
+      <div class="container my-5 py-5">
+        <div class="container d-flex row py-4 flex-sm-wrap-reverse first-section-adpt">
+            <div class="col-8">
+                <p style="font-size: 46px;" class="gilroy-medium py-4 pe-5">Школа <span class="orange">{</span><span style="font-style: italic;"><b>программирования</b></span><span class="orange">}</span> для тех, кому нужны реальные навыки,
+                    а не просто сертификат</p>
+                <p class="gilroy-regular w-50">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
+                <button style="font-size: 20px;" class=" text-white border-0 py-3 px-5 rounded-pill gilroy-regular bg-orange test-btn">Пройти тестирование</button>
+            </div>
+            <div class="col-4 d-flex justify-content-center align-items-center py-5">
+                <img class="" src="img/computer.svg" alt="">
+            </div>
+        </div>
+      </div>
+      <!-- Second Section -->
+      <div class="container-fluid my-5 py-5" id="secondSection">
+        <div class="container">
+          <h1 class="text-center gilroy-semibold my-4" style="font-size: 46px;">Какие технологии вы изучите:</h1>
+          <div class="row rounded-5" style="background-color: #EAF2F5;">
+            <div class="col-6 d-flex justify-content-center">
+              <img src="img/tech.svg" class="pt-5" alt="">
+            </div>
+            <div class="col-6 d-flex flex-wrap align-content-center">
+              <div class="d-flex flex-wrap pt-5">
+                <p class="px-4 py-2 rounded-pill text-white text17 gilroy-regular mx-2 course-pill" style="background: #5096FF;">Front End Разработка</p>
+                <p class="px-4 py-2 rounded-pill text-white text17 gilroy-regular mx-2 course-pill" style="background: #FFB359;">Back End Разработка</p>
+                <p class="px-4 py-2 rounded-pill text-white text17 gilroy-regular mx-2 course-pill" style="background: #FF6F50;">Программирование на Python</p>
+                <p class="px-4 py-2 rounded-pill text-white text17 gilroy-regular mx-2 course-pill" style="background: #4BD071;">Графический дизайн</p>
+                <p class="px-4 py-2 rounded-pill text-white text17 gilroy-regular mx-2 course-pill" style="background: #50C0FF;">UX/UI Дизайн</p>
+                <p class="px-4 py-2 rounded-pill text-white text17 gilroy-regular mx-2 course-pill" style="background: #4B77B9;">Цифровая грамотность</p>
+              </div>
+              <p class="text20 ms-2 gilroy-semibold">Всё, что нужно для входа в IT сферу,<br> имея базовые знания</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Third Section -->
+      <div class="container-fluid my-5 py-5" id="thirdSection">
+        <div class="container">
+          <h1 class="text46 gilroy-semibold text-center">Обучение в YtYt – это<br> удобно и результативно</h1>
+          <div class="d-flex flex-wrap justify-content-center">
+            <div style="width: 20%; background-color: #EAF2F5;" class="text-center d-flex flex-column align-items-center m-3 p-3 rounded-5">
+              <img class="p-4" src="img/practice.svg" alt="">
+              <p class="gilroy-semibold text16">Огромное количество практики</p>
+              <p class="gilroy-regular text13">Более 500 самостоятельных заданий и 20 полноценных больших проектов</p>
+            </div>
+            <div style="width: 20%; background-color: #EAF2F5;" class="text-center d-flex flex-column align-items-center m-3 p-3 rounded-5">
+              <img class="p-4" src="img/methods.svg" alt="">
+              <p class="gilroy-semibold text16">Современные методики обучения</p>
+              <p class="gilroy-regular text13">Спиральное обучение: погружаемся в материал постепенно, виток за витком</p>
+            </div>
+            <div style="width: 20%; background-color: #EAF2F5;" class="text-center d-flex flex-column align-items-center m-3 p-3 rounded-5">
+              <img class="p-4" src="img/simple.svg" alt="">
+              <p class="gilroy-semibold text16">Простое и понятное изложение</p>
+              <p class="gilroy-regular text13">Вместо заумных терминов – примеры из реального мира</p>
+            </div>
+            <div style="width: 20%; background-color: #EAF2F5;" class="text-center d-flex flex-column align-items-center m-3 p-3 rounded-5">
+              <img class="p-4" src="img/schedule.svg" alt="">
+              <p class="gilroy-semibold text16">Гибкий график занятий</p>
+              <p class="gilroy-regular text13">Учитесь в любое время в удобном для вас темпе</p>
+            </div>
+            <div style="width: 20%; background-color: #EAF2F5;" class="text-center d-flex flex-column align-items-center m-3 p-3 rounded-5">
+              <img class="p-4" src="img/connect.svg" alt="">
+              <p class="gilroy-semibold text16">Прямая связь с опытными программистами</p>
+              <p class="gilroy-regular text13">Задавайте вопросы и отправляйте свой код на проверку</p>
+            </div>
+            <div style="width: 20%; background-color: #EAF2F5;" class="text-center d-flex flex-column align-items-center m-3 p-3 rounded-5">
+              <img class="p-4" src="img/price.svg" alt="">
+              <p class="gilroy-semibold text16">Оплата небольшими частями</p>
+              <p class="gilroy-regular text13">Платите только за тот материал, который сейчас изучаете, а не за весь курс сразу</p>
+            </div>
+            <div style="width: 20%; background-color: #EAF2F5;" class="text-center d-flex flex-column align-items-center m-3 p-3 rounded-5">
+              <img class="p-4" src="img/refund.svg" alt="">
+              <p class="gilroy-semibold text16">Быстрый и легкий возврат</p>
+              <p class="gilroy-regular text13">Если передумаете учиться – вернем деньги за 3 рабочих дня</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fourth Section -->
+      <div class="container-fluid py-4"  style="background-color: #EAF2F5;">
+        <div class="container my-3 d-flex flex-column align-items-center">
+          <p class="gilroy-semibold text46 text-center">Как происходит обучение на YtYt?</p>
+          <p class="gilroy-regular text-center" style="width: 50%;">Обучение должно быть комфортным. Поэтому мы разработали собственную платформу для обучения программированию. На ней вы можете не только изучать теорию, но и запускать готовые примеры и даже писать свой собственный код.
+          </p>
+          <div class="rounded-5 d-flex justify-content-center bg-white flex-wrap">
+            <div class="m-3 p-3" style="width: 30%;">
+              <p class="gilroy-bold text77" style="color: #38BFF2;">01</p>
+              <p class="gilroy-semibold text24">Весь материал разбит на небольшие уроки</p>
+              <p class="gilroy-regular text16">Теория и практика подаются маленькими порциями. Так вам будет легче усваивать новые знания.</p>
+            </div>
+            <div class="m-3 p-3" style="width: 30%;">
+              <p class="gilroy-bold text77" style="color: #38BFF2;">02</p>
+              <p class="gilroy-semibold text24">Обучение через практику</p>
+              <p class="gilroy-regular text16">Всё, что вы узнали, вы тут же начинаете применять на практике. Вы сразу видите результаты своего труда.</p>
+            </div>
+            <div class="m-3 p-3" style="width: 30%;">
+              <p class="gilroy-bold text77" style="color: #38BFF2;">03</p>
+              <p class="gilroy-semibold text24">Нет ограничений по времени</p>
+              <p class="gilroy-regular text16">Можно совмещать учёбу с работой и другими делами. Не нужно выпрашивать академический отпуск, если пришлось сделать перерыв.</p>
+            </div>
+          </div>
+          <button class="rounded-pill bg-orange text-white gilroy-regular no-border px-5 py-3 my-4">Начать обучение</button>
+        </div>
+      </div>
+      <!-- Fifth Section -->
+      <div class="container-fluid bg-white">
+        <div class="container my-5 rounded-5 px-5">
+          <div class="row my-4">
+            <div class="col-4 mx-4">
+              <img src="img/support.svg" alt="">
+            </div>
+            <div class="col flex-grow-1 rounded-5 p-5 mx-4" style="background-color: #EAF2F5;">
+              <p class="gilroy-semibold text32">Помощь и поддержка</p>
+              <p class="gilroy-regular">Если в процессе обучения возникнут сложности, вы всегда сможете задать вопрос своему наставнику. </p>
+              <p class="gilroy-regular">Раз в несколько уроков вы будете получать большое задание, которое нужно будет сдавать на проверку код-ревьюеру. Он внимательно изучит ваш код, найдет ошибки и поможет вам стать лучше.</p>
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col flex-grow-1 rounded-5 p-5 mx-4" style="background-color: #EAF2F5;">
+              <p class="gilroy-semibold text32">Методика обучения</p>
+              <p class="gilroy-regular">Весь учебный материал структурирован по принципу «спирального обучения». Сначала вы получаете базовые знания, а затем на каждом витке спирали углубляетесь в изученные темы, доводя их понимание до совершенства. Такой подход упрощает обучение и гарантирует, что вы не пропустите ничего важного.</p>
+            </div>
+            <div class="col-4 mx-4"><img src="img/met.svg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <!-- Sixth Section -->
+      <div class="container-fluid pb-5" style="background-color: #EAF2F5;" id="sixthSection">
+        <p class="text-center gilroy-semibold text46 mt-5 pt-5">Список наших курсов</p>
+        <div class="container d-flex flex-wrap justify-content-around">
+          <div class="gilroy-regular border border-2 rounded-5 p-4 col-5 my-3 bg-white course-card">
+            <p class="text17">Курс</p>
+            <p class="text32">Front End Разработка</p>
+            <p class="text17">4 месяца</p>
+            <p class="text17">500 TJS /Месяц</p>
+          </div>
+          <div class="gilroy-regular border border-2 rounded-5 p-4 col-5 my-3 bg-white course-card">
+            <p class="text17">Курс</p>
+            <p class="text32">Back End Разработка</p>
+            <p class="text17">4 месяца</p>
+            <p class="text17">650 TJS /Месяц</p>
+          </div>
+          <div class="gilroy-regular border border-2 rounded-5 p-4 col-5 my-3 bg-white course-card">
+            <p class="text17">Курс</p>
+            <p class="text32">Программирование на Python</p>
+            <p class="text17">3 месяца</p>
+            <p class="text17">450 TJS /Месяц</p>
+          </div>
+          <div class="gilroy-regular border border-2 rounded-5 p-4 col-5 my-3 bg-white course-card">
+            <p class="text17">Курс</p>
+            <p class="text32">Графический дизайн</p>
+            <p class="text17">3 месяца</p>
+            <p class="text17">550 TJS /Месяц</p>
+          </div>
+          <div class="gilroy-regular border border-2 rounded-5 p-4 col-5 my-3 bg-white course-card">
+            <p class="text17">Курс</p>
+            <p class="text32">UX/UI Дизайн</p>
+            <p class="text17">4 месяца</p>
+            <p class="text17">600 TJS /Месяц</p>
+          </div>
+          <div class="gilroy-regular border border-2 rounded-5 p-4 col-5 my-3 bg-white course-card">
+            <p class="text17">Курс</p>
+            <p class="text32">Цифровая грамотность</p>
+            <p class="text17">2 месяца</p>
+            <p class="text17">350 TJS /Месяц</p>
+          </div>
+        </div>
+      </div>
+      <!-- Course Cards -->
+      <div class="d-flex justify-content-center">
+        <div class="front-end-card text46 w-75 border border-2 rounded-5 p-4 d-flex flex-column align-items-center justify-content-center" style="height: 75vh; position: fixed; top: auto; z-index: 1;">
+          <p class="gilroy-semibold">Front End Разработка</p>
+          <p class="gilroy-semibold text20">Цена: <span class="text24">500 TJS/Месяц</span></p>
+          <p class="gilroy-semibold text20">Длительность: <span class="text24">4 Месяца</span></p>
+          <p class="gilroy-regular text20">За 4 месяца вы научитесь научитесь верстать сайты</p>
+          <p class="gilrot-regular text20 text-center">Научитесь писать скелет и обложку сайта,<br> интеаркцию на сайте,<br> создадите свой первый Веб-проект и защитите работу на выпуске</p>
+          <button class="rounded-pill bg-orange text-white gilroy-regular no-border my-4 text24" style="width: 350px; height: 75px">Начать обучение</button>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="container-fluid" id="footer">
+        <div class="container d-flex justify-content-between py-5 flex-wrap">
+          <div>
+            <div class="d-flex">
+              <img src="img/logo.svg" alt="" class="mx-1"><p class="gilroy-regular mx-2">Школа<br> программирования</p>
+            </div>
+            <div class="d-flex">
+              <a href="https://www.instagram.com" class="mx-1"><img src="img/inst.svg" alt=""></a>
+              <a href="https://vk.com" class="mx-1"><img src="img/vk.svg" alt=""></a>
+              <a href="" class="mx-1"><img src="img/fb.svg" alt=""></a>
+              <a href="https://www.youtube.com" class="mx-1"><img src="img/yt.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="mx-5">
+              <a class="nav-link" href="#secondSection"><p class="gilroy-regular text13">Чему вы научитесь</p></a>
+              <a class="nav-link" href="#thirdSection"><p class="gilroy-regular text13">Процесс обучения</p></a>
+              <a class="nav-link" href="#sixthSection"><p class="gilroy-regular text13">Список курсов</p></a>
+              <a class="nav-link" href=""><p class="gilroy-regular text13">Регистрация</p></a>
+            </div>
+            <div class="ms-4">
+              <p class="gilroy-regular" style="color: #38BFF2;">+992 000 000 000</p>
+              <p class="gilroy-regular">infoytyt@gmail.com</p>
+              <p class="gilroy-regular">Индивидуальный предприниматель<br> Ли Богдан</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="javascript/index.js"></script>
+</body>
+</html>
